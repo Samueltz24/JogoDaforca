@@ -62,7 +62,7 @@ const VerificaLetra = (event) =>{
             setTimeout(() => {
                imgs.src=`vazia.png`
 
-            },500)
+            },1000)
             span.innerHTML=''
             if (Jogo.length === 0) {
                span.innerHTML='O JOGO ACABO ' 
