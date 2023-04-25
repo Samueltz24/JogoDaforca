@@ -44,7 +44,7 @@ const VerificaLetra = (event) =>{
                   res.innerHTML=`parabens vc acerto o nome ${Jogo[0]}`
                   Jogo.shift()
                   span.innerHTML=''
-                  imgs.src = `./forca/vazia.png`
+                  imgs.src = `./força/vazia.png`
                   res1.innerHTML = ''
                   if(Jogo.length === 0){
                      span.innerHTML='O JOGO ACABO '
@@ -69,7 +69,7 @@ const VerificaLetra = (event) =>{
             Jogo.shift()
             console.log(Jogo)
             setTimeout(() => {
-               imgs.src=`./forca/vazia.png`
+               imgs.src=`./força/vazia.png`
 
             },1000)
             span.innerHTML=''
@@ -96,7 +96,7 @@ const Letra = (jogo) => {
 }
 
 const Erro = () => {
-   imgs.src = `./forca/${foto[erro-1]}.png`
+   imgs.src = `./força/${foto[erro-1]}.png`
 }
 
 const Reseta = () => {
